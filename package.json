@@ -1,6 +1,6 @@
 {
   "name": "mailru-cloud",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js library for Mail.ru Cloud storage via WebDAV API – upload, download and manage files with ease!",
   "type": "module",
   "main": "./dist/index.js",
@@ -12,7 +12,7 @@
     }
   },
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf ./dist & tsc",
     "start": "node dist/src/client.js"
   },
   "repository": {
@@ -38,12 +38,10 @@
   },
   "homepage": "https://github.com/dvoegor/mailru-cloud#readme",
   "dependencies": {
-    "fs-extra": "^11.3.0",
     "webdav": "^5.8.0"
   },
   "devDependencies": {
-    "typescript": "^5.8.2",
-    "@types/fs-extra": "^11.0.4",
-    "@types/webdav": "^1.0.0"
+    "@types/node": "^22.13.17",
+    "typescript": "^5.8.2"
   }
 }
