@@ -1,6 +1,6 @@
 {
   "name": "mailru-cloud",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node.js library for Mail.ru Cloud storage via WebDAV API – upload, download and manage files with ease!",
   "type": "module",
   "main": "./dist/index.js",
@@ -8,6 +8,7 @@
   "exports": {
     ".": {
       "import": "./dist/index.js",
+      "require": "./dist/index.js",
       "types": "./dist/index.d.ts"
     }
   },
