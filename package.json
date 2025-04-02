@@ -26,7 +26,10 @@
     "webdav",
     "api-wrapper",
     "mailru-api",
-    "mailru-cloud"
+    "mailru-cloud",
+    "cloud-storage",
+    "file-management",
+    "mailru-api-client"
   ],
   "author": "Grigorii Dvoeglazov",
   "license": "MIT",
