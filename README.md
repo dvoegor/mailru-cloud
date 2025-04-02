@@ -36,7 +36,8 @@ Import the library and initialize the client using `MailRuCloud`:
 import { MailRuCloud } from 'mailru-cloud'
 
 const cloud = new MailRuCloud({
-  username: 'your_email@mail.ru', // Full email address password: 'your_application_password', // Generated password
+  username: 'your_email@mail.ru', // Full email address
+  password: 'your_application_password', // Generated password
 })
 ```
 
